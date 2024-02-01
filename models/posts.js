@@ -1,7 +1,7 @@
 // models/post.js
 module.exports = (sequelize, DataTypes) => {
-  const Post = sequelize.define(
-    "Post",
+  const posts = sequelize.define(
+    "posts",
     {
       post_title: {
         type: DataTypes.STRING,
@@ -18,5 +18,5 @@ module.exports = (sequelize, DataTypes) => {
     }
   );
 
-  return Post;
+  return posts;
 };

@@ -1,7 +1,7 @@
 // models/user.js
 module.exports = (sequelize, DataTypes) => {
-  const User = sequelize.define(
-    "User",
+  const users = sequelize.define(
+    "users",
     {
       user_id: {
         type: DataTypes.STRING,
@@ -18,5 +18,5 @@ module.exports = (sequelize, DataTypes) => {
     }
   );
 
-  return User;
+  return users;
 };
