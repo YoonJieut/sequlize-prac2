@@ -1,6 +1,6 @@
 // controllers/userController.js
 
-const { User } = require("../models"); // User 모델을 import
+const { User } = require("../models/users"); // User 모델을 import
 
 // 사용자 생성 함수
 async function createUser(req, res) {
