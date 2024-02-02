@@ -35,4 +35,4 @@ app.listen(3000, () => {
   console.log("서버가 http://localhost:3000 포트에서 실행 중입니다.");
 });
 
-module.exports = app;
+module.exports = app; // 테스트 코드에서 사용하기 위해 app을 내보냅니다.
